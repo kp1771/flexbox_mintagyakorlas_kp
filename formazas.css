@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+
+header h1 {
+    font-size: 28px;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.kartyak {
+    background-color: #888888;
+    color: #ffffff;
+    padding: 10px;
+    border: 1px solid #666;
+}
+
+.kartyak:nth-child(-n+4) {
+    flex: 1 1 calc(25% - 12px);
+}
+
+.kartyak:nth-child(n+5) {
+    flex: 1 1 calc(50% - 8px);
+}
+
+.kartyak h2 {
+    background-color: #cc0000;
+    color: #ffffff;
+    padding: 8px 12px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.kartyak p {
+    font-size: 13px;
+    line-height: 1.4;
+    margin-bottom: 8px;
+}
