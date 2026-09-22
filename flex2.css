@@ -58,3 +58,7 @@ article {
     line-height: 1.4;
     margin-bottom: 8px;
 }
+nav{
+    display: flex;
+    flex-direction: row-reverse;
+}
